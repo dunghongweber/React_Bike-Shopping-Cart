@@ -1,0 +1,44 @@
+
+.modal-custom{
+    /* width: clamp(50%, 700px, 90%);
+    height: min(75%, 500px);
+    top: 15%; */
+    
+    /* margin: auto;
+    padding: 0 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    overflow: auto; 
+    position: fixed;
+    z-index: 1;
+    background-color: #2196f3; */
+
+    
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }

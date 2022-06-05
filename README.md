@@ -1,46 +1,27 @@
-# Getting Started with Create React App and Redux
+# Problems:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Users view and order bike(s) from a website. User can view details when click on a single bike/product.
+Cart will store all the added bike(s) by user, it also has total price calculated for user. User can remove all bike(s) from cart or delete single bike/item in cart (or reduce its quantity).
+Framer Motion is used to provide animation and better UI experience. Redux (Toolkit) is used to manage state and data efficiently in the web app.
+
+# What I learned:
+
+Installing and setting up react-redux and react toolkit.
+Implememting redux with the help of redux toolkit to create reducer, store, slice.
+Working with multiple state inside a redux slice.
+Working with dispatch and selector to access and manage necessary state(s) in the app at/with different component.
+Implementing different effects/animations of Framer Motion.
+Using React states and Hooks to control data flow and styles in the app.
+Working with colors and patterns to create cool atmosphere for the app.
+
+# Reflex:
+
+this project helps me to practice my skill with Materialize CSS, React Hooks, and Framer Motion.
+I also learn how to work with redux and use redux toolkit to access and manage states at different components in the web app. This helps data flow smoother and easier to manage.
 
 ## Available Scripts
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

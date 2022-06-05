@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img{
+  width: 300px;
+  height: 250px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {img{
+  width: 120px;
+  height: 150px;
+}}
+
+.card-price{
+  padding: 10px;  
+  font-weight: bold;
+}
+
+span.card-title{
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.card{
+  width: 80%;
+  height: 350px;
+}
+
+.card.hoverable:hover {
+  box-shadow: 6px 15px 8px 1px #2196f3;
+}
+
